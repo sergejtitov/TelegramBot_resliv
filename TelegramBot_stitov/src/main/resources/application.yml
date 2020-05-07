@@ -1,7 +1,7 @@
 database:
   url : jdbc:postgresql://localhost:5432/Resliv_testDB
   login : postgres
-  password : din89ast
+  password : ***
   initialSize : 10
   maxActive : 7
 ---
