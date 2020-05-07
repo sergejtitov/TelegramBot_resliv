@@ -1,0 +1,20 @@
+database:
+  url : jdbc:postgresql://localhost:5432/Resliv_testDB
+  login : postgres
+  password : din89ast
+  initialSize : 10
+  maxActive : 7
+---
+server:
+  port : 8085
+---
+telegrambot:
+  username : stitov_test_resliv_bot
+  tmToken : 1201331244:AAFfkUrbVfyIYuQZMJbqFUX3h53SDtZI4UM
+---
+spring:
+  flyway:
+    ignore-missing-migrations: true
+    locations: classpath:/migrations
+    baseline-on-migrate: true
+    baseline-description: Flyway Scripts
