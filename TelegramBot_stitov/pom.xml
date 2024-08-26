@@ -12,7 +12,7 @@
 
     <properties>
         <dbcp-version>1.4</dbcp-version>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
         <telegram.bot.version>4.8.1</telegram.bot.version>
         <telegram.spring.version>4.1.2</telegram.spring.version>
         <flyway.version>6.4.1</flyway.version>
